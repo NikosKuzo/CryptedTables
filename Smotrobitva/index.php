@@ -23,11 +23,20 @@ include('includes/header.php') ?>
           <li class="nav-item">
             <a class="nav-link disabled" href="#">Персонажи</a>
           </li>
+          <li class="nav-item"><hr class="dropdown-divider"></li>
+          <li class="nav-item">
+            <a class="btn" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+              <img src="../assets/search.svg" width="30" height="30" alt="Поиск">
+            </a>
+          </li>
+          <div class="collapse" id="collapseExample">
+            <form class="d-flex" role="search">
+                <input class="form-control me-2" type="search" placeholder="Введите запрос" aria-label="Search">
+                <button class="btn btn-outline-success" type="submit">Поиск</button>
+              </form>
+          </div>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Поиск</button>
-        </form>
+        
         <div class="dropdown">
             <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             <img src="../assets/simpleUser.svg" width="40" height="40" border-radius: 50% alt="Фото пользователя"> Меню
