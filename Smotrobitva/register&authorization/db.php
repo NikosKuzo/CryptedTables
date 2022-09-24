@@ -1,6 +1,6 @@
 <?php
 // Подключаем библиотеку RedBeanPHP
-require "../rb-mysql.php";
+require "rb-mysql.php";
 
 // Подключаемся к БД
 R::setup( 'mysql:host=localhost;dbname=register',
