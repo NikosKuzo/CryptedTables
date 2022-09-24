@@ -23,7 +23,7 @@ if(isset($data['do_login'])) {
  		$_SESSION['logged_user'] = $user;
  		
  		// Редирект на главную страницу
-                header('Location: ../index.php');
+    header('Location: ../index.php');
 
  	} else {
     

@@ -25,8 +25,14 @@ if(isset($data['do_signup'])) {
 	}
 
 	if($data['password'] == '') {
-
 		$errors[] = "Введите пароль";
+	}
+	if($data['password'] == $data['name']) {
+		$errors[] = "Никнейм и пароль не должны совпадать";
+	}
+
+	if($data['password'] == $data['email']) {
+		$errors[] = "Email и пароль не должны совпадать";
 	}
 
 	if($data['password_2'] != $data['password']) {
@@ -41,9 +47,9 @@ if(isset($data['do_signup'])) {
 
     }
 
-    if (mb_strlen($data['password']) < 2 || mb_strlen($data['password']) > 8){
+    if (mb_strlen($data['password']) < 5 || mb_strlen($data['password']) > 48){
 	
-	    $errors[] = "Недопустимая длина пароля (от 2 до 8 символов)";
+	    $errors[] = "Недопустимая длина пароля (от 5 до 48 символов)";
 
     }
 
@@ -67,7 +73,7 @@ if(isset($data['do_signup'])) {
 		// Все проверено, регистрируем
 		// Создаем таблицу users
 		$user = R::dispense('users');
-                // добавляем в таблицу записи
+    // добавляем в таблицу записи
 		$user->email = $data['email'];
 		$user->name = $data['name'];
 
