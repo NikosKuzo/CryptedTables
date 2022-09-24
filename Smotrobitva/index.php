@@ -1,7 +1,7 @@
 <?php
-session_start();
+//session_start();
 require 'dbcon.php';
-
+require "db.php"; // подключаем файл для соединения с БД
 include('includes/header.php') ?>
 
 <nav class="navbar navbar-expand-lg bg-light">
@@ -38,15 +38,30 @@ include('includes/header.php') ?>
         </ul>
         
         <div class="dropdown">
-            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            <img src="../assets/simpleUser.svg" width="40" height="40" border-radius: 50% alt="Фото пользователя"> Меню
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">  
+            <img src="../assets/simpleUser.svg" width="40" height="40" border-radius: 50% alt="Фото пользователя">
+            <!-- Если авторизован -->
+            <?php if(isset($_SESSION['logged_user'])) : ?>
+            <?php echo $_SESSION['logged_user']->name; ?>
             </a>
             <ul class="dropdown-menu">
               <li><a class="dropdown-item" href="#">Действие 1</a></li>
               <li><a class="dropdown-item" href="#">Действие 2</a></li>
               <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="register&authorization/logout.php">Выйти</a></li>
+            </ul>
+            <!-- Если нет -->
+            <?php else :?>  Меню
+              </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="register&authorization/login.php">Авторизоваться</a></li>
+              <li><a class="dropdown-item" href="register&authorization/signup.php">Регистрация</a></li>
+              <li><hr class="dropdown-divider"></li>
               <li><a class="dropdown-item" href="#">Ещё действие</a></li>
             </ul>
+            
+            </a>
+            <?php endif; ?>
         </div>
       </div>
     </div>
