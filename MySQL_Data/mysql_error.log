@@ -581,3 +581,205 @@ Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2022-09-23  9:58:12 0 [Note] InnoDB: Loading buffer pool(s) from E:\Programming\XAMPP\mysql\data\ib_buffer_pool
 2022-09-23  9:58:12 0 [Note] Plugin 'FEEDBACK' is disabled.
 2022-09-23  9:58:12 0 [Note] Server socket created on IP: '::'.
+2022-09-26 16:49:15 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-09-26 16:49:15 0 [Note] InnoDB: Uses event mutexes
+2022-09-26 16:49:15 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-09-26 16:49:15 0 [Note] InnoDB: Number of pools: 1
+2022-09-26 16:49:15 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-09-26 16:49:15 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-09-26 16:49:15 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-09-26 16:49:15 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2022-09-26 16:49:15 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-09-26 16:49:15 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-09-26 16:49:15 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-09-26 16:49:15 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-09-26 16:49:15 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-09-26 16:49:15 0 [Note] InnoDB: Waiting for purge to start
+2022-09-26 16:49:15 2 [ERROR] InnoDB: Page [page id: space=2, page number=0] log sequence number 3618744 is in the future! Current system log sequence number 300306.
+2022-09-26 16:49:15 2 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:15 2 [ERROR] InnoDB: Page [page id: space=2, page number=3] log sequence number 3618744 is in the future! Current system log sequence number 300306.
+2022-09-26 16:49:15 2 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:15 2 [ERROR] InnoDB: Page [page id: space=2, page number=4] log sequence number 3618744 is in the future! Current system log sequence number 300306.
+2022-09-26 16:49:15 4 [ERROR] InnoDB: Page [page id: space=16, page number=3] log sequence number 4233250 is in the future! Current system log sequence number 300306.
+2022-09-26 16:49:15 2 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:15 4 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:15 4 [ERROR] InnoDB: Page [page id: space=1, page number=3] log sequence number 4218573 is in the future! Current system log sequence number 300306.
+2022-09-26 16:49:15 4 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:15 0 [Note] InnoDB: 10.4.24 started; log sequence number 300297; transaction id 170
+2022-09-26 16:49:15 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-09-26 16:49:15 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-09-26 16:49:15 0 [ERROR] InnoDB: Page [page id: space=2, page number=2] log sequence number 3618320 is in the future! Current system log sequence number 300306.
+2022-09-26 16:49:15 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:15 0 [Note] Server socket created on IP: '::'.
+2022-09-26 16:49:15 0 [Note] InnoDB: Buffer pool(s) load completed at 220926 16:49:15
+2022-09-26 16:49:15 0 [Note] Reading of all Master_info entries succeeded
+2022-09-26 16:49:15 0 [Note] Added new Master_info '' to hash table
+2022-09-26 16:49:15 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Page [page id: space=14, page number=3] log sequence number 3968185 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Page [page id: space=17, page number=0] log sequence number 527094 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Page [page id: space=17, page number=3] log sequence number 570132 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Page [page id: space=17, page number=1] log sequence number 527107 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:20 8 [ERROR] InnoDB indexes are inconsistent with what defined in .frm for table .\phpmyadmin\pma__users
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Page [page id: space=2, page number=10] log sequence number 4218633 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Table phpmyadmin/pma__users contains 1 indexes inside InnoDB, which is different from the number of indexes 2 defined in the MariaDB  Have you mixed up .frm files from different installations? See https://mariadb.com/kb/en/innodb-troubleshooting/
+
+2022-09-26 16:49:20 8 [ERROR] InnoDB could not find key no 1 with name username from dict cache for table phpmyadmin/pma__users
+2022-09-26 16:49:20 8 [ERROR] InnoDB: Table phpmyadmin/pma__users contains 1 indexes inside InnoDB, which is different from the number of indexes 2 defined in the MariaDB  Have you mixed up .frm files from different installations? See https://mariadb.com/kb/en/innodb-troubleshooting/
+
+2022-09-26 16:49:21 8 [ERROR] InnoDB: Page [page id: space=19, page number=3] log sequence number 463962 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:21 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:21 8 [ERROR] InnoDB: Page [page id: space=11, page number=3] log sequence number 1742107 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:21 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:21 8 [ERROR] InnoDB: Page [page id: space=9, page number=3] log sequence number 4236122 is in the future! Current system log sequence number 300315.
+2022-09-26 16:49:21 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:49:21 9 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:21 8 [ERROR] InnoDB could not find key no 1 with name username from dict cache for table phpmyadmin/pma__users
+2022-09-26 16:49:21 11 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:21 10 [ERROR] InnoDB could not find key no 1 with name username from dict cache for table phpmyadmin/pma__users
+2022-09-26 16:49:21 13 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:22 15 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:22 17 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:22 19 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:22 21 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:23 23 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:25 25 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:27 27 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:49:28 29 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:50:17 31 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:50:17 30 [ERROR] InnoDB could not find key no 1 with name username from dict cache for table phpmyadmin/pma__users
+2022-09-26 16:50:17 33 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:50:17 32 [ERROR] InnoDB could not find key no 1 with name username from dict cache for table phpmyadmin/pma__users
+2022-09-26 16:50:20 35 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:50:20 37 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:50:20 39 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:50:21 45 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:50:21 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-09-26 16:50:21 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-09-26 16:50:21 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-09-26 16:50:21 0 [Note] InnoDB: Starting shutdown...
+2022-09-26 16:50:21 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-09-26 16:50:21 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-09-26 16:50:21 0 [Note] InnoDB: Buffer pool(s) dump completed at 220926 16:50:21
+2022-09-26 16:50:22 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-09-26 16:50:22 0 [Note] InnoDB: Shutdown completed; log sequence number 304075; transaction id 194
+2022-09-26 16:50:22 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-09-26 16:51:56 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-09-26 16:51:56 0 [Note] InnoDB: Uses event mutexes
+2022-09-26 16:51:56 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-09-26 16:51:56 0 [Note] InnoDB: Number of pools: 1
+2022-09-26 16:51:56 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-09-26 16:51:56 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-09-26 16:51:56 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-09-26 16:51:56 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-09-26 16:51:56 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-09-26 16:51:56 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-09-26 16:51:57 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-09-26 16:51:57 0 [Note] InnoDB: Waiting for purge to start
+2022-09-26 16:51:57 3 [ERROR] InnoDB: Page [page id: space=9, page number=3] log sequence number 4236122 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 3 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [Note] InnoDB: 10.4.24 started; log sequence number 306150; transaction id 226
+2022-09-26 16:51:57 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-09-26 16:51:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=1, page number=3] log sequence number 4218573 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [Note] Server socket created on IP: '::'.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=2, page number=0] log sequence number 3618744 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=2, page number=3] log sequence number 3618744 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 6 [ERROR] InnoDB: Page [page id: space=2, page number=4] log sequence number 3618744 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 6 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [Note] Reading of all Master_info entries succeeded
+2022-09-26 16:51:57 0 [Note] Added new Master_info '' to hash table
+2022-09-26 16:51:57 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=11, page number=3] log sequence number 1742107 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=14, page number=3] log sequence number 3968185 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=17, page number=0] log sequence number 527094 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=17, page number=1] log sequence number 527107 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=17, page number=3] log sequence number 570132 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Page [page id: space=19, page number=3] log sequence number 463962 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:57 0 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:57 0 [Note] InnoDB: Buffer pool(s) load completed at 220926 16:51:57
+2022-09-26 16:51:59 8 [ERROR] InnoDB indexes are inconsistent with what defined in .frm for table .\phpmyadmin\pma__users
+2022-09-26 16:51:59 8 [ERROR] InnoDB: Page [page id: space=2, page number=10] log sequence number 4218633 is in the future! Current system log sequence number 306159.
+2022-09-26 16:51:59 8 [ERROR] InnoDB: Your database may be corrupt or you may have copied the InnoDB tablespace but not the InnoDB log files. Please refer to https://mariadb.com/kb/en/library/innodb-recovery-modes/ for information about forcing recovery.
+2022-09-26 16:51:59 8 [ERROR] InnoDB: Table phpmyadmin/pma__users contains 1 indexes inside InnoDB, which is different from the number of indexes 2 defined in the MariaDB  Have you mixed up .frm files from different installations? See https://mariadb.com/kb/en/innodb-troubleshooting/
+
+2022-09-26 16:51:59 8 [ERROR] InnoDB could not find key no 1 with name username from dict cache for table phpmyadmin/pma__users
+2022-09-26 16:51:59 8 [ERROR] InnoDB: Table phpmyadmin/pma__users contains 1 indexes inside InnoDB, which is different from the number of indexes 2 defined in the MariaDB  Have you mixed up .frm files from different installations? See https://mariadb.com/kb/en/innodb-troubleshooting/
+
+2022-09-26 16:51:59 9 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:51:59 11 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:51:59 13 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:51:59 15 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:00 17 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:00 19 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:00 21 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:03 23 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:04 25 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:04 27 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:04 29 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:05 31 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:52:07 33 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:53:31 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-09-26 16:53:31 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-09-26 16:53:31 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-09-26 16:53:31 0 [Note] InnoDB: Starting shutdown...
+2022-09-26 16:53:31 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-09-26 16:53:31 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-09-26 16:53:31 0 [Note] InnoDB: Buffer pool(s) dump completed at 220926 16:53:31
+2022-09-26 16:53:32 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-09-26 16:53:32 0 [Note] InnoDB: Shutdown completed; log sequence number 308044; transaction id 250
+2022-09-26 16:53:32 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-09-26 16:55:26 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-09-26 16:55:26 0 [Note] InnoDB: Uses event mutexes
+2022-09-26 16:55:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-09-26 16:55:26 0 [Note] InnoDB: Number of pools: 1
+2022-09-26 16:55:26 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-09-26 16:55:26 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-09-26 16:55:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-09-26 16:55:27 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-09-26 16:55:27 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-09-26 16:55:27 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-09-26 16:55:27 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-09-26 16:55:27 0 [Note] InnoDB: Waiting for purge to start
+2022-09-26 16:55:27 0 [Note] InnoDB: 10.4.24 started; log sequence number 4238973; transaction id 4236
+2022-09-26 16:55:27 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-09-26 16:55:27 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-09-26 16:55:27 0 [Note] Server socket created on IP: '::'.
+2022-09-26 16:55:27 0 [Note] Reading of all Master_info entries succeeded
+2022-09-26 16:55:27 0 [Note] Added new Master_info '' to hash table
+2022-09-26 16:55:27 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-09-26 16:55:27 0 [Note] InnoDB: Buffer pool(s) load completed at 220926 16:55:27
+2022-09-26 16:55:32 9 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:33 11 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:33 13 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:33 15 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:33 17 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:33 19 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:36 21 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:37 23 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:37 25 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:45 27 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:46 29 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:55 31 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:55 33 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:55 35 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:55 37 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:55 39 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-09-26 16:55:55 41 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
