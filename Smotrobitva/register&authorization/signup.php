@@ -77,12 +77,13 @@ if(isset($data['do_signup'])) {
 		$user->email = $data['email'];
 		$user->name = $data['name'];
 
-		// Хешируем пароль
-		$user->password = password_hash($data['password'], PASSWORD_DEFAULT);
+		// md5 пароль
+		$user->password = md5($data['password']);
 
 		// Сохраняем таблицу
 		R::store($user);
-        echo '<div style="color: green; ">Вы успешно зарегистрированы! Можно <a href="login.php">авторизоваться</a>.</div><hr>';
+		$_SESSION['logged_user'] = $user;
+		header('Location: ../index.php');
 
 	} else {
                 // array_shift() извлекает первое значение массива array и возвращает его, сокращая размер array на один элемент. 

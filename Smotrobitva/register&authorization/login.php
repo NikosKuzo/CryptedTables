@@ -17,7 +17,7 @@ if(isset($data['do_login'])) {
  if($user) {
 
  	// Если логин существует, тогда проверяем пароль
- 	if(password_verify($data['password'], $user->password)) {
+ 	if(md5($data['password'])== $user->password) {
 
  		// Все верно, пускаем пользователя
  		$_SESSION['logged_user'] = $user;
@@ -26,8 +26,7 @@ if(isset($data['do_login'])) {
     header('Location: ../index.php');
 
  	} else {
-    
-    $errors[] = 'Пароль неверно введен!';
+    $errors[] = "Пароль неверно введен!";
 
  	}
 
