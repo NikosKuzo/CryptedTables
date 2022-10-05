@@ -1,5 +1,10 @@
 <?php
-require 'db2.php';
+$con = mysqli_connect("localhost","root","","register");
+
+if(!$con)
+{
+    die('Connection Failed'. mysqli_connect_error());
+}
 ?>
 <?php include('includes/headerlk.php') ?>
 

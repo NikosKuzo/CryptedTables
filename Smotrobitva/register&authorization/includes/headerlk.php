@@ -34,8 +34,9 @@
             </a>
           </li>
           
-          <div class="collapse mt-1" id="collapseSearch">
-            <form class="d-flex" role="search">
+          
+            <div class="collapse collapse-horizontal mt-1" id="collapseSearch">
+              <form class="d-flex" role="search" style="width: 300px">
                 <input class="form-control me-2" type="search" placeholder="Введите запрос" aria-label="Search">
                 <button class="btn btn-outline-success " type="submit">Поиск</button>
               </form>
