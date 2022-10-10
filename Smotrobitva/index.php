@@ -1,7 +1,7 @@
 <?php
 require 'dbcon.php';
-include('includes/header.php') ?>
-
+include('includes/header.php')
+?>
 <div class="container mt-5">
     <h1>
         <p class="text-center fs-1"><strong>Смотробитва</strong></p>    

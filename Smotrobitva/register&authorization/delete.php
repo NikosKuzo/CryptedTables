@@ -1,7 +1,7 @@
 <?php require "db.php";
-  $con = mysqli_connect("localhost","root","","register");
+  $con = mysqli_connect("localhost","root","","reg");
   $user = $_SESSION['logged_user']->name;
-  $sql = "DELETE FROM users WHERE users.name = '$user'";
+  $sql = "DELETE FROM users WHERE users1.name = '$user'";
   $query = mysqli_query($con, $sql);
   unset($_SESSION['logged_user']);
   header('Location: ../index.php');

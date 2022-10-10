@@ -1,6 +1,6 @@
 <?php
 include('includes/headerlk.php');
-$con = mysqli_connect("localhost","root","","register");
+$con = mysqli_connect("localhost","root","","reg");
 
 if(!$con)
 {
@@ -11,7 +11,7 @@ $name = $_REQUEST['name'];
 $password = $_REQUEST['password'];
 $email = $_REQUEST['email'];
 $user = $_SESSION['logged_user']->name;
-$sql = "SELECT password FROM users WHERE users.name = '$user'";
+$sql = "SELECT password FROM users1 WHERE users1.name = '$user'";
 $query = mysqli_query($con, $sql) or die();
 $dataFromTable = mysqli_fetch_assoc($query);
 $errors = array();
@@ -27,7 +27,7 @@ if(trim($name) == '') {
 
     $errors[] = "Никнейм пуст";
 }
-if(trim($name) != $user && R::count('users', "name = ?", array($name)) > 0) {
+if(trim($name) != $user && R::count('users1', "name = ?", array($name)) > 0) {
 
     $errors[] = "Никнейм занят";
 }
@@ -61,14 +61,14 @@ if (!preg_match("/[0-9a-z_]+@[0-9a-z_^\.]+\.[a-z]{2,3}/i", $email)) {
 
 // Проверка на уникальность email
 
-if(R::count('users', "email = ?", array($email)) > 0 && $email != $_SESSION['logged_user']->email) {
+if(R::count('users1', "email = ?", array($email)) > 0 && $email != $_SESSION['logged_user']->email) {
 
     $errors[] = "Пользователь с таким Email существует!";
 }
 
 if (empty($errors)) {
     if ($password != ''){
-        $sql = "UPDATE users set name='$name', password= md5($password), email='$email' WHERE users.name = '$user'";
+        $sql = "UPDATE users1 set name='$name', password= md5($password), email='$email' WHERE users1.name = '$user'";
         echo " 
         <HTML>
         <HEAD>
@@ -76,7 +76,7 @@ if (empty($errors)) {
         </HEAD>";
     }
     else {
-        $sql = "UPDATE users set name='$name', email='$email' WHERE users.name = '$user'";
+        $sql = "UPDATE users1 set name='$name', email='$email' WHERE users1.name = '$user'";
         echo " 
         <HTML>
         <HEAD>
@@ -90,6 +90,6 @@ if (empty($errors)) {
  
 $query = mysqli_query($con, $sql) or die("error update");
 mysqli_close($con);
-$_SESSION['logged_user'] = R::findOne('users', 'name = ?', array($name));
+$_SESSION['logged_user'] = R::findOne('users1', 'name = ?', array($name));
 ?>
 

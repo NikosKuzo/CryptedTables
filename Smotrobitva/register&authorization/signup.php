@@ -62,7 +62,7 @@ if(isset($data['do_signup'])) {
 
 	// Проверка на уникальность email
 
-	if(R::count('users', "email = ?", array($data['email'])) > 0) {
+	if(R::count('users1', "email = ?", array($data['email'])) > 0) {
 
 		$errors[] = "Пользователь с таким Email существует!";
 	}
@@ -72,7 +72,7 @@ if(isset($data['do_signup'])) {
 
 		// Все проверено, регистрируем
 		// Создаем таблицу users
-		$user = R::dispense('users');
+		$user = R::dispense('users1');
     // добавляем в таблицу записи
 		$user->email = $data['email'];
 		$user->name = $data['name'];

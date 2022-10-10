@@ -12,7 +12,7 @@ if(isset($data['do_login'])) {
  $errors = array();
 
  // Проводим поиск пользователей в таблице users
- $user = R::findOne('users', 'name = ?', array($data['name']));
+ $user = R::findOne('users1', 'name = ?', array($data['name']));
 
  if($user) {
 

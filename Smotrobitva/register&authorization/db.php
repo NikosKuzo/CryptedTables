@@ -3,7 +3,7 @@
 require "rb-mysql.php";
 
 // Подключаемся к БД
-R::setup( 'mysql:host=localhost;dbname=register',
+R::setup( 'mysql:host=localhost;dbname=reg',
         'root', '' );
 
 // Проверка подключения к БД
