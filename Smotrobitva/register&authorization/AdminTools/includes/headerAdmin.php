@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Личный кабинет</title>
+    <title>Личный кабинет администратора</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
 <?php require "./../db.php"; // подключаем файл для соединения с БД?>
-<?php require "db.php"; // подключаем файл для соединения с БД?>
+<?php require "db.php"; // подключаем файл для соединения с БД
+if( $_SESSION['logged_user']-> su ==0){
+  header('Location: ../lk.php');
+}?>
 <nav class="navbar navbar-expand-lg bg-light">
     <div class="container">
       <a class="navbar-brand" href="../../index.php">
@@ -54,7 +57,7 @@
               <li><a class="dropdown-item" href="../lk.php">Личный кабинет</a></li>
               <li><a class="dropdown-item" href="#">Действие 2</a></li>
               <li><hr class="dropdown-divider"></li>
-              <li><a class="dropdown-item" href="logout.php">Выйти</a></li>
+              <li><a class="dropdown-item" href="../logout.php">Выйти</a></li>
             </ul>
             </a>
             <?php endif; ?>

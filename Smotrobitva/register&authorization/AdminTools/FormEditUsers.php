@@ -1,5 +1,4 @@
-<?php include('includes/headerAdmin.php') ?>
-
+<?php include('includes/headerAdmin.php')?>
 <?php include('message.php'); ?>
 
     <div class="container mt-5">

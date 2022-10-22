@@ -21,8 +21,11 @@ if(isset($data['do_login'])) {
 
  		// Все верно, пускаем пользователя
  		$_SESSION['logged_user'] = $user;
+ 		$txt = "Пользователь ". $_SESSION['logged_user']->name ." вошёл.";
+
+		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
  		
- 		// Редирект на главную страницу
+		// Редирект на главную страницу
     header('Location: ../index.php');
 
  	} else {

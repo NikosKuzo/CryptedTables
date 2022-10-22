@@ -2,6 +2,10 @@
 include('includes/header.php'); // подключаем шапку проекта
 require "db.php"; // подключаем файл для соединения с БД
 
+$txt = "Пользователь ". $_SESSION['logged_user']->name ." вышел.";
+
+$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
+
 // Производим выход пользователя
 unset($_SESSION['logged_user']);
 

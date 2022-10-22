@@ -2147,3 +2147,518 @@ Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribut
 2022-10-10 12:01:31 970 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
 2022-10-10 12:01:33 972 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
 2022-10-10 12:58:05 974 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:06:08 986 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:27:07 988 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:27:24 990 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:27:25 992 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:51:25 1013 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:51:37 1015 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:51:38 1017 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 13:51:39 1019 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:04 1031 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:04 1033 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:06 1035 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:07 1037 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:15 1039 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:16 1041 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:24 1043 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:24 1045 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:28 1047 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:29 1049 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:31 1051 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:31 1053 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:33 1055 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:33 1057 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:45 1059 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:45 1061 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:49 1063 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:49 1065 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:52 1067 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:52 1069 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:58 1071 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:04:58 1073 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:05:04 1075 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:05:05 1077 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:06:05 1087 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:06:05 1089 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:06:09 1091 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:06:40 1129 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:06:40 1131 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:07:06 1133 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 14:07:07 1135 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 22:47:40 1171 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 22:47:41 1173 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 22:47:42 1175 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 22:47:42 1177 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 22:47:42 1179 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 22:47:42 1181 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:11:37 1183 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:12:06 1185 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:12:07 1187 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:12:09 1189 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:12:11 1191 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:36:10 1193 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:36:46 1195 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:36:47 1197 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-10 23:36:48 1199 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:00:48 1201 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:01:17 1203 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:01:18 1205 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:01:19 1207 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:25:19 1209 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:25:56 1211 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:25:57 1213 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:25:59 1215 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:50:01 1217 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:50:27 1219 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:50:28 1221 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  0:50:29 1223 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:14:29 1225 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:15:04 1227 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:15:06 1229 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:15:07 1231 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:15:09 1233 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:39:09 1235 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:39:39 1237 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:39:40 1239 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  1:39:41 1241 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:03:42 1243 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:04:10 1245 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:04:11 1247 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:04:12 1249 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:28:12 1251 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:28:42 1253 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:28:43 1255 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:28:44 1257 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:52:44 1259 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:53:14 1261 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:53:15 1263 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  2:53:16 1265 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:17:16 1267 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:17:48 1269 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:17:50 1271 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:17:51 1273 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:41:50 1275 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:42:20 1277 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:42:22 1279 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  3:42:23 1281 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:06:25 1283 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:08:06 1285 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:08:07 1287 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:08:08 1289 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:08:10 1291 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:32:10 1293 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:32:44 1295 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:32:45 1297 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:32:46 1299 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:56:46 1301 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:57:17 1303 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:57:18 1305 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:57:19 1307 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11  4:57:21 1309 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 10:34:35 1311 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 10:44:00 1313 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 10:44:16 1315 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 10:44:17 1317 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 10:44:18 1319 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:08:18 1321 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:08:48 1323 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:08:49 1325 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:08:50 1327 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:32:49 1329 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:33:22 1331 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:33:23 1333 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:33:24 1335 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:57:24 1337 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:57:54 1339 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:57:56 1341 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 11:57:57 1343 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:08:58 1345 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:29:13 1347 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:29:42 1349 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:29:44 1351 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:29:45 1353 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:53:44 1355 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:54:23 1357 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:54:24 1359 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:54:25 1361 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 15:54:27 1363 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:18:27 1365 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:18:54 1367 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:18:56 1369 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:18:57 1371 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:42:59 1373 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:43:25 1375 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:43:26 1377 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 16:43:27 1379 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:07:27 1381 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:07:58 1383 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:07:59 1385 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:08:01 1387 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:32:00 1389 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:32:23 1391 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:32:25 1393 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:32:26 1395 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:56:25 1397 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:56:52 1399 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:56:53 1401 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 17:56:54 1403 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-11 18:11:03 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-10-11 18:11:03 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-10-11 18:11:03 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-11 18:11:03 0 [Note] InnoDB: Starting shutdown...
+2022-10-11 18:11:03 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-10-11 18:11:03 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-10-11 18:11:03 0 [Note] InnoDB: Buffer pool(s) dump completed at 221011 18:11:03
+2022-10-11 18:11:04 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-11 18:11:04 0 [Note] InnoDB: Shutdown completed; log sequence number 4269095; transaction id 4364
+2022-10-11 18:11:04 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-10-11 18:11:30 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-11 18:11:30 0 [Note] InnoDB: Uses event mutexes
+2022-10-11 18:11:30 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-11 18:11:30 0 [Note] InnoDB: Number of pools: 1
+2022-10-11 18:11:30 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-11 18:11:30 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-11 18:11:30 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-11 18:11:31 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-11 18:11:31 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-11 18:11:31 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-11 18:11:31 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-11 18:11:31 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-11 18:11:31 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-11 18:11:31 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-11 18:11:31 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-11 18:11:31 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-11 18:11:31 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-11 18:11:31 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-11 18:11:31 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-11 18:11:31 0 [Note] InnoDB: Waiting for purge to start
+2022-10-11 18:11:31 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269095; transaction id 4365
+2022-10-11 18:11:31 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-11 18:11:31 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-11 18:11:31 0 [Note] InnoDB: Buffer pool(s) load completed at 221011 18:11:31
+2022-10-11 18:11:31 0 [Note] Server socket created on IP: '::'.
+2022-10-11 18:11:31 0 [Note] Reading of all Master_info entries succeeded
+2022-10-11 18:11:31 0 [Note] Added new Master_info '' to hash table
+2022-10-11 18:11:31 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-12 18:32:30 10 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:32:34 12 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:32:35 14 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:32:35 16 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:32:35 18 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:32:36 20 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:56:31 22 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:57:07 24 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:57:08 26 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 18:57:09 28 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:21:09 30 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:21:52 32 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:21:53 34 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:21:54 36 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:21:56 38 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:45:55 40 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:46:39 42 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:46:40 44 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 19:46:41 46 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:10:41 48 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:11:00 50 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:11:01 52 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:11:02 54 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:11:04 56 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:35:04 58 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:35:34 60 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:35:35 62 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-12 20:35:36 64 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-13  6:01:42 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-13  6:01:42 0 [Note] InnoDB: Uses event mutexes
+2022-10-13  6:01:42 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-13  6:01:42 0 [Note] InnoDB: Number of pools: 1
+2022-10-13  6:01:42 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-13  6:01:42 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-13  6:01:42 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-13  6:01:42 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=4269449
+2022-10-13  6:01:43 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-13  6:01:43 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-13  6:01:43 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-13  6:01:43 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-13  6:01:43 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-13  6:01:43 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-13  6:01:43 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-13  6:01:43 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-13  6:01:43 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-13  6:01:43 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-13  6:01:43 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-13  6:01:43 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-13  6:01:43 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-13  6:01:43 0 [Note] InnoDB: Waiting for purge to start
+2022-10-13  6:01:43 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269458; transaction id 4389
+2022-10-13  6:01:43 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-13  6:01:43 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-13  6:01:43 0 [Note] Server socket created on IP: '::'.
+2022-10-13  6:01:43 0 [Note] InnoDB: Buffer pool(s) load completed at 221013  6:01:43
+2022-10-13  6:01:43 0 [Note] Reading of all Master_info entries succeeded
+2022-10-13  6:01:43 0 [Note] Added new Master_info '' to hash table
+2022-10-13  6:01:43 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-13 10:09:44 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-10-13 10:09:44 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-13 10:09:44 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-10-13 10:09:44 0 [Note] InnoDB: Starting shutdown...
+2022-10-13 10:09:44 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-10-13 10:09:44 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-10-13 10:09:44 0 [Note] InnoDB: Buffer pool(s) dump completed at 221013 10:09:44
+2022-10-13 10:09:45 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-13 10:09:45 0 [Note] InnoDB: Shutdown completed; log sequence number 4269476; transaction id 4390
+2022-10-13 10:09:45 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-10-13 10:10:12 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-13 10:10:12 0 [Note] InnoDB: Uses event mutexes
+2022-10-13 10:10:12 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-13 10:10:12 0 [Note] InnoDB: Number of pools: 1
+2022-10-13 10:10:12 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-13 10:10:12 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-13 10:10:12 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-13 10:10:12 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-13 10:10:12 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-13 10:10:12 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-13 10:10:12 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-13 10:10:12 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-13 10:10:12 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-13 10:10:12 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-13 10:10:12 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-13 10:10:12 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-13 10:10:12 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-13 10:10:12 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-13 10:10:12 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-13 10:10:12 0 [Note] InnoDB: Waiting for purge to start
+2022-10-13 10:10:12 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269476; transaction id 4389
+2022-10-13 10:10:12 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-13 10:10:12 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-13 10:10:12 0 [Note] Server socket created on IP: '::'.
+2022-10-13 10:10:13 0 [Note] InnoDB: Buffer pool(s) load completed at 221013 10:10:13
+2022-10-13 10:10:13 0 [Note] Reading of all Master_info entries succeeded
+2022-10-13 10:10:13 0 [Note] Added new Master_info '' to hash table
+2022-10-13 10:10:13 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-18  4:42:34 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-18  4:42:34 0 [Note] InnoDB: Uses event mutexes
+2022-10-18  4:42:34 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-18  4:42:34 0 [Note] InnoDB: Number of pools: 1
+2022-10-18  4:42:34 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-18  4:42:34 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-18  4:42:34 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-18  4:42:34 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=4269476
+2022-10-18  4:42:35 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-18  4:42:35 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-18  4:42:35 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-18  4:42:35 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-18  4:42:35 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-18  4:42:35 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-18  4:42:35 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-18  4:42:35 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-18  4:42:35 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-18  4:42:35 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-18  4:42:35 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-18  4:42:35 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-18  4:42:35 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-18  4:42:35 0 [Note] InnoDB: Waiting for purge to start
+2022-10-18  4:42:35 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269485; transaction id 4389
+2022-10-18  4:42:35 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-18  4:42:35 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-18  4:42:35 0 [Note] Server socket created on IP: '::'.
+2022-10-18  4:42:35 0 [Note] InnoDB: Buffer pool(s) load completed at 221018  4:42:35
+2022-10-18  4:42:35 0 [Note] Reading of all Master_info entries succeeded
+2022-10-18  4:42:35 0 [Note] Added new Master_info '' to hash table
+2022-10-18  4:42:35 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-20 19:13:55 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-10-20 19:13:55 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-10-20 19:13:55 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-20 19:13:55 0 [Note] InnoDB: Starting shutdown...
+2022-10-20 19:13:55 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-10-20 19:13:55 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-10-20 19:13:55 0 [Note] InnoDB: Buffer pool(s) dump completed at 221020 19:13:55
+2022-10-20 19:13:56 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-20 19:13:56 0 [Note] InnoDB: Shutdown completed; log sequence number 4269503; transaction id 4390
+2022-10-20 19:13:56 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-10-20 19:14:24 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-20 19:14:24 0 [Note] InnoDB: Uses event mutexes
+2022-10-20 19:14:24 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-20 19:14:24 0 [Note] InnoDB: Number of pools: 1
+2022-10-20 19:14:24 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-20 19:14:24 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-20 19:14:24 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-20 19:14:24 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-20 19:14:24 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-20 19:14:24 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-20 19:14:24 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-20 19:14:24 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-20 19:14:24 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-20 19:14:24 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-20 19:14:24 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-20 19:14:24 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-20 19:14:24 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-20 19:14:24 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-20 19:14:24 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-20 19:14:24 0 [Note] InnoDB: Waiting for purge to start
+2022-10-20 19:14:24 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269503; transaction id 4389
+2022-10-20 19:14:24 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-20 19:14:24 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-20 19:14:24 0 [Note] Server socket created on IP: '::'.
+2022-10-20 19:14:24 0 [Note] InnoDB: Buffer pool(s) load completed at 221020 19:14:24
+2022-10-20 19:14:24 0 [Note] Reading of all Master_info entries succeeded
+2022-10-20 19:14:24 0 [Note] Added new Master_info '' to hash table
+2022-10-20 19:14:24 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-20 19:16:10 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-10-20 19:16:10 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-10-20 19:16:10 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-20 19:16:10 0 [Note] InnoDB: Starting shutdown...
+2022-10-20 19:16:10 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-10-20 19:16:10 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-10-20 19:16:10 0 [Note] InnoDB: Buffer pool(s) dump completed at 221020 19:16:10
+2022-10-20 19:16:11 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-20 19:16:11 0 [Note] InnoDB: Shutdown completed; log sequence number 4269512; transaction id 4390
+2022-10-20 19:16:11 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-10-20 19:16:37 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-20 19:16:37 0 [Note] InnoDB: Uses event mutexes
+2022-10-20 19:16:37 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-20 19:16:37 0 [Note] InnoDB: Number of pools: 1
+2022-10-20 19:16:37 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-20 19:16:37 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-20 19:16:37 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-20 19:16:37 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-20 19:16:37 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-20 19:16:37 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-20 19:16:37 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-20 19:16:37 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-20 19:16:37 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-20 19:16:37 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-20 19:16:37 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-20 19:16:37 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-20 19:16:37 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-20 19:16:37 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-20 19:16:37 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-20 19:16:37 0 [Note] InnoDB: Waiting for purge to start
+2022-10-20 19:16:38 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269512; transaction id 4389
+2022-10-20 19:16:38 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-20 19:16:38 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-20 19:16:38 0 [Note] Server socket created on IP: '::'.
+2022-10-20 19:16:38 0 [Note] InnoDB: Buffer pool(s) load completed at 221020 19:16:38
+2022-10-20 19:16:38 0 [Note] Reading of all Master_info entries succeeded
+2022-10-20 19:16:38 0 [Note] Added new Master_info '' to hash table
+2022-10-20 19:16:38 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-22 22:12:59 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-10-22 22:12:59 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-10-22 22:12:59 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-22 22:12:59 0 [Note] InnoDB: Starting shutdown...
+2022-10-22 22:12:59 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-10-22 22:12:59 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-10-22 22:12:59 0 [Note] InnoDB: Buffer pool(s) dump completed at 221022 22:12:59
+2022-10-22 22:13:00 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-22 22:13:00 0 [Note] InnoDB: Shutdown completed; log sequence number 4269521; transaction id 4390
+2022-10-22 22:13:00 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-10-22 22:13:26 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-22 22:13:26 0 [Note] InnoDB: Uses event mutexes
+2022-10-22 22:13:26 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-22 22:13:26 0 [Note] InnoDB: Number of pools: 1
+2022-10-22 22:13:26 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-22 22:13:26 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-22 22:13:26 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-22 22:13:26 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-22 22:13:26 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-22 22:13:26 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-22 22:13:26 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-22 22:13:26 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-22 22:13:26 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-22 22:13:26 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-22 22:13:26 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-22 22:13:26 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-22 22:13:26 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-22 22:13:26 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-22 22:13:26 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-22 22:13:26 0 [Note] InnoDB: Waiting for purge to start
+2022-10-22 22:13:27 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269521; transaction id 4389
+2022-10-22 22:13:27 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-22 22:13:27 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-22 22:13:27 0 [Note] InnoDB: Buffer pool(s) load completed at 221022 22:13:27
+2022-10-22 22:13:27 0 [Note] Server socket created on IP: '::'.
+2022-10-22 22:13:27 0 [Note] Reading of all Master_info entries succeeded
+2022-10-22 22:13:27 0 [Note] Added new Master_info '' to hash table
+2022-10-22 22:13:27 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-23  0:16:50 0 [Note] D:\xampp\mysql\bin\mysqld.exe (initiated by: unknown): Normal shutdown
+2022-10-23  0:16:50 0 [Note] Event Scheduler: Purging the queue. 0 events
+2022-10-23  0:16:50 0 [Note] InnoDB: FTS optimize thread exiting.
+2022-10-23  0:16:50 0 [Note] InnoDB: Starting shutdown...
+2022-10-23  0:16:50 0 [Note] InnoDB: Dumping buffer pool(s) to D:\xampp\mysql\data\ib_buffer_pool
+2022-10-23  0:16:50 0 [Note] InnoDB: Instance 0, restricted to 250 pages due to innodb_buf_pool_dump_pct=25
+2022-10-23  0:16:50 0 [Note] InnoDB: Buffer pool(s) dump completed at 221023  0:16:50
+2022-10-23  0:16:51 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-23  0:16:51 0 [Note] InnoDB: Shutdown completed; log sequence number 4269530; transaction id 4390
+2022-10-23  0:16:51 0 [Note] D:\xampp\mysql\bin\mysqld.exe: Shutdown complete
+
+2022-10-23  0:16:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-23  0:16:57 0 [Note] InnoDB: Uses event mutexes
+2022-10-23  0:16:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-23  0:16:57 0 [Note] InnoDB: Number of pools: 1
+2022-10-23  0:16:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-23  0:16:57 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-23  0:16:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-23  0:16:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-23  0:16:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-23  0:16:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-23  0:16:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\register\1.ibd' OS error: 203
+2022-10-23  0:16:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-23  0:16:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-23  0:16:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``register`.`1``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-23  0:16:57 0 [Warning] InnoDB: Ignoring tablespace for `register`.`1` because it could not be opened.
+2022-10-23  0:16:57 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-23  0:16:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-23  0:16:57 0 [Note] InnoDB: Setting file 'D:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-23  0:16:57 0 [Note] InnoDB: File 'D:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-23  0:16:57 0 [Note] InnoDB: Waiting for purge to start
+2022-10-23  0:16:57 0 [Note] InnoDB: 10.4.24 started; log sequence number 4269530; transaction id 4389
+2022-10-23  0:16:57 0 [Note] InnoDB: Loading buffer pool(s) from D:\xampp\mysql\data\ib_buffer_pool
+2022-10-23  0:16:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-23  0:16:57 0 [Note] Server socket created on IP: '::'.
+2022-10-23  0:16:57 0 [Note] InnoDB: Buffer pool(s) load completed at 221023  0:16:57
+2022-10-23  0:16:57 0 [Note] Reading of all Master_info entries succeeded
+2022-10-23  0:16:57 0 [Note] Added new Master_info '' to hash table
+2022-10-23  0:16:57 0 [Note] D:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.4.24-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2022-10-23  0:17:08 10 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:11 12 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:11 14 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:11 16 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:11 18 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:12 20 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:12 22 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:13 24 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:17:13 26 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:41:09 40 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:42:11 42 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:42:13 44 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  0:42:15 46 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:06:15 48 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:06:40 50 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:06:41 52 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:06:43 54 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:30:42 56 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:31:09 58 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:31:10 60 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:31:12 62 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  1:55:11 155 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  2:05:19 186 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  2:10:32 228 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  2:10:32 230 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  2:10:32 232 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  2:10:32 234 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  2:10:33 236 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'
+2022-10-23  2:10:33 238 [ERROR] mysqld.exe: Некорректная информация в файле '.\mysql\user.frm'

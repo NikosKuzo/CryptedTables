@@ -68,6 +68,7 @@ if(R::count('users1', "email = ?", array($email)) > 0 && $email != $_SESSION['lo
 
 if (empty($errors)) {
     if ($password != ''){
+        $txt = "Пользователь ". $_SESSION['logged_user']->name ." изменил данные и пароль.";
         $sql = "UPDATE users1 set name='$name', password= md5($password), email='$email' WHERE users1.name = '$user'";
         echo " 
         <HTML>
@@ -76,6 +77,7 @@ if (empty($errors)) {
         </HEAD>";
     }
     else {
+        $txt = "Пользователь ". $_SESSION['logged_user']->name ." изменил данные, но не пароль.";
         $sql = "UPDATE users1 set name='$name', email='$email' WHERE users1.name = '$user'";
         echo " 
         <HTML>
@@ -83,6 +85,7 @@ if (empty($errors)) {
             <META HTTP-EQUIV='Refresh' CONTENT='0; URL=lk.php'> 
         </HEAD>";
     }
+    $sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
 } else {
     echo '<div style="color: red; ">' . array_shift($errors). '</div><hr>';
 //хз//

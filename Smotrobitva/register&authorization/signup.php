@@ -83,6 +83,10 @@ if(isset($data['do_signup'])) {
 		// Сохраняем таблицу
 		R::store($user);
 		$_SESSION['logged_user'] = $user;
+		$txt = "Пользователь ". $_SESSION['logged_user']->name ." зарегистрировался.";
+
+		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}","r");
+
 		header('Location: ../index.php');
 
 	} else {
