@@ -5,7 +5,7 @@ $user = $_SESSION['logged_user']->name; ?>
 <a href="AdminTools/FormEditUsers.php" type="button" id="sudoEdit" class="btn btn-outline-secondary">Для модеров</a>
 <a href="FormEditUser.php" type="button" class="btn btn-outline-secondary">Изменить данные</a>
 <button type="button" class="btn btn-outline-secondary" onclick="deleteUser()" name="delete_user">Удалить эту страницу</button>
-<button type="button" id = "funcButton" class="btn btn-outline-secondary" onclick="createButtons('Часы, time(), Дата, date()')" name="delete_user">Простые функции</button>
+<button type="button" id = "funcButton" class="btn btn-outline-secondary" onclick="createButtons('Часы, time(), Дата, date(), Стеганография, steg()')" name="delete_user">Простые функции</button>
 
 <script>
   function deleteUser(){
@@ -13,6 +13,9 @@ $user = $_SESSION['logged_user']->name; ?>
       console.log("yes");
       window.location.href = 'delete.php'
     }
+  }
+  function steg(){
+    window.location.href = 'steg.php'
   }
   function time(){
     oldElements = document.getElementsByClassName("date/time");
