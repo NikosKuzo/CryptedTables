@@ -35,7 +35,7 @@
     const secret = document.getElementById("input2");
     let message = input.value;
     let secretPhrase = secret.value;
-    putResult(CryptoJS.AES.decrypt(message, secretPhrase))
+    putResult(CryptoJS.AES.decrypt(message, secretPhrase).toString(CryptoJS.enc.Utf8))
   }
 
   function DES() {
@@ -51,12 +51,13 @@
     const secret = document.getElementById("input2");
     let message = input.value;
     let secretPhrase = secret.value;
-    putResult(CryptoJS.DES.decrypt(message, secretPhrase))
+    putResult(CryptoJS.DES.decrypt(message, secretPhrase).toString(CryptoJS.enc.Utf8))
   }
 
   function rabbit() {
     const input = document.getElementById("input1");
     const secret = document.getElementById("input2");
+    let message = input.value;
     let secretPhrase = secret.value;
     putResult(CryptoJS.Rabbit.encrypt(message, secretPhrase))
   }
@@ -66,7 +67,7 @@
     const secret = document.getElementById("input2");
     let message = input.value;
     let secretPhrase = secret.value;
-    putResult(CryptoJS.Rabbit.decrypt(message, secretPhrase))
+    putResult(CryptoJS.Rabbit.decrypt(message, secretPhrase).toString(CryptoJS.enc.Utf8))
   }
 
   function SHA512() {
