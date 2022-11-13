@@ -68,7 +68,7 @@ if(R::count('users1', "email = ?", array($email)) > 0 && $email != $_SESSION['lo
 
 if (empty($errors)) {
     if ($password != ''){
-        $txt = "Пользователь ". $_SESSION['logged_user']->name ." изменил данные и пароль.";
+        $txt = "Пользователь ". $_SESSION['logged_user']->name . " изменил данные и пароль. IP " . $_SERVER['REMOTE_ADDR'];
         $sql = "UPDATE users1 set name='$name', password= md5($password), email='$email' WHERE users1.name = '$user'";
         echo " 
         <HTML>
@@ -77,7 +77,7 @@ if (empty($errors)) {
         </HEAD>";
     }
     else {
-        $txt = "Пользователь ". $_SESSION['logged_user']->name ." изменил данные, но не пароль.";
+        $txt = "Пользователь ". $_SESSION['logged_user']->name . " изменил данные, но не пароль. IP " . $_SERVER['REMOTE_ADDR'];
         $sql = "UPDATE users1 set name='$name', email='$email' WHERE users1.name = '$user'";
         echo " 
         <HTML>

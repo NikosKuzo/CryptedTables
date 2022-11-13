@@ -80,7 +80,7 @@ if (isset($data['do_signup'])) {
 		// Сохраняем таблицу
 		R::store($user);
 		$_SESSION['logged_user'] = $user;
-		$txt = "Пользователь " . $_SESSION['logged_user']->name . " зарегистрировался.";
+		$txt = "Пользователь " . $_SESSION['logged_user']->name . " зарегистрировался. IP " . $_SERVER['REMOTE_ADDR'];
 
 		$sendToTelegram = fopen("https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}&parse_mode=html&text={$txt}", "r");
 
