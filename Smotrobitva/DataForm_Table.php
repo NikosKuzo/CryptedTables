@@ -20,6 +20,7 @@ if(isset($_POST['SelectDatabase']))
         <select name="Table_name" class="form-select" id="inputGroupSelect01">
         <?php
         $Database = mysqli_real_escape_string($con,$_POST['Database_name']);
+        mysqli_select_db($con, $Database);
         $query = "SHOW TABLES";
         $query_run = mysqli_query($con, $query);
         
