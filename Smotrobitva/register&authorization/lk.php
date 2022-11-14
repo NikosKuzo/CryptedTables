@@ -16,7 +16,7 @@ $user = $_SESSION['logged_user']->name; ?>
   }
 
   function lab2() {
-    window.location.href = 'lab2.php'
+    window.location.href = '../DataForm.php'
   }
 
   function lab3() {

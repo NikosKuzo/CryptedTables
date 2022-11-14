@@ -1,5 +1,4 @@
 <?php
-session_start();
 require 'dbcon.php';
 
 if(isset($_POST['CryptStatus']))
