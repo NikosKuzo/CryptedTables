@@ -1,5 +1,6 @@
 <?php
 
+//todo: изменить подключение не только к смотробитве
 $con = mysqli_connect("localhost","root","","smotrobitva");
 
 if(!$con)

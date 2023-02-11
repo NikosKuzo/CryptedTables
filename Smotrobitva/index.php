@@ -63,6 +63,9 @@ include('includes/header.php')
                 <p><strong>Идет...</strong></p>
             </div>
         </div>
+    <div class="row">
+    <a href="CreateTableNew.php" class="btn text-decoration-none float-end fs-6 text-dark" ><strong>Создать новую базу данных</strong></a>
+    </div>
 </div>
 
 <?php include('includes/footer.php') ?>
